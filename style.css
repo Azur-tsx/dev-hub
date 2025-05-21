@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+#currentCategoryGuide {
+    font-weight: 500;
+    font-size: .8em;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+button {
+    background-color: unset;
+    border: unset;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: #0f1117;
+    color: #eee;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #1a1d25;
+    padding: 1rem;
+    border-right: 1px solid #2c2f38;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.sidebar li:hover {
+    background-color: #2a2e39;
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+h1,
+h2 {
+    color: #fff;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.cards,
+.gallery,
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cards a {
+    background-color: #1e212b;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #333;
+    transition: background 0.2s;
+}
+
+.cards a:hover {
+    background-color: #2d3140;
+}
+
+.gallery img {
+    max-width: 200px;
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+.videos iframe {
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 6px;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    background-color: #1e1f26;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #fff;
+    resize: vertical;
+    font-size: 1rem;
+}
