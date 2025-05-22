@@ -17,24 +17,23 @@ function loadCategory(cat) {
     currentCat = cat;
 
     const data = resources[cat];
-    currentCategory.textContent = cat;
+    currentCategory.textContent = resources[cat].icon + " " + cat;
 
-    linksSection.style.display = "block";
+    if (linksContainer) linksSection.style.display = "block";
+    console.log(linksContainer)
     imagesSection.style.display = "block";
     videosSection.style.display = "block";
     notesSection.style.display = "block";
 
     linksContainer.innerHTML = data.links
-        .map(link => `
-      <a href="${link.url}" target="_blank">
+        .map(link => `<a href="${link.url}" target="_blank">
         <strong>${link.title}</strong>
         ${link.description ? `<p style="margin: 0.3em 0 0; font-size: 0.9em; color: #ccc;">${link.description}</p>` : ""}
-      </a>
-    `)
+      </a>`)
         .join("");
 
     imagesContainer.innerHTML = data.images
-        .map(src => `<a href="${src}" target="_blank"><img src="${src}" alt="Image for ${cat}"></a>`)
+        .map(src => `<a href="${src}" target="_blank"><img src="${src}" alt="Image de ${cat}" /></a>`)
         .join("");
 
     videosContainer.innerHTML = data.videos
@@ -50,7 +49,7 @@ notesSection.style.display = "none";
 
 Object.keys(resources).forEach(cat => {
     const li = document.createElement("li");
-    li.textContent = cat;
+    li.textContent = resources[cat].icon + " " + cat;
     li.onclick = () => loadCategory(cat);
     categoryList.appendChild(li);
 });

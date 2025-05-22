@@ -112,6 +112,7 @@ body {
     cursor: pointer;
     border-radius: 4px;
     transition: background 0.2s;
+    font-weight: 600;
 }
 
 .sidebar li:hover {
@@ -143,6 +144,18 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+#images {
+    min-height: 200px;
+}
+
+#images a {
+    transition: transform 0.2s ease;
+}
+
+#images a:hover {
+    transform: translateY(-2px);
 }
 
 .cards a {

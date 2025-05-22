@@ -6,7 +6,7 @@ const resources = {
             { title: "HTML Dog", url: "https://www.htmldog.com/", description: "Tutoriels et bonnes pratiques HTML" }
         ],
         images: [
-            "https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png"
+            "./assets/HTML/html_semantique.png"
         ],
         videos: [
             "https://www.youtube.com/embed/UB1O30fR-EE"
