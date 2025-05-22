@@ -99,8 +99,11 @@ function loadCategory(cat) {
                 <div class="links" data-category="${key}">
                     ${category.links.map(link => `
                         <a href="${link.url}" target="_blank" rel="noopener">
-                            <strong>${link.title}</strong>
-                            ${link.description ? `<p>${link.description}</p>` : ""}
+                            ${link.icon ? `<img class="link-icon" src="${link.icon}" alt="Icon for ${link.title}" loading="lazy">` : ""}
+                            <div class="link-content">
+                                <strong>${link.title}</strong>
+                                ${link.description ? `<p>${link.description}</p>` : ""}
+                            </div>
                         </a>
                     `).join("")}
                 </div>
