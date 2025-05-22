@@ -9,7 +9,9 @@ const resources = {
             "./assets/HTML/html_semantique.png"
         ],
         videos: [
-            "https://www.youtube.com/embed/UB1O30fR-EE"
+        ],
+        notes: [
+            "HTML est le langage de balisage standard pour créer des pages Web. Il fournit la structure de base d'un document Web, qui est ensuite améliorée et modifiée par d'autres technologies telles que CSS et JavaScript."
         ]
     },
     CSS: {
@@ -22,7 +24,6 @@ const resources = {
             "https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png"
         ],
         videos: [
-            "https://www.youtube.com/embed/yfoY53QXEnI"
         ]
     },
     JavaScript: {
@@ -35,7 +36,6 @@ const resources = {
             "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
         ],
         videos: [
-            "https://www.youtube.com/embed/PkZNo7MFNFg"
         ]
     },
     React: {
@@ -48,7 +48,6 @@ const resources = {
             "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
         ],
         videos: [
-            "https://www.youtube.com/embed/bMknfKXIFA8"
         ]
     },
     PHP: {
@@ -61,7 +60,6 @@ const resources = {
             "https://www.php.net/images/logos/php-logo.svg"
         ],
         videos: [
-            "https://www.youtube.com/embed/8n8fX2g0v4E"
         ]
     },
     Figma: {
@@ -74,7 +72,6 @@ const resources = {
             "https://www.figma.com/favicon.ico"
         ],
         videos: [
-            "https://www.youtube.com/embed/4W4Z2g0v4E"
         ]
     },
     VSCodeExtensions: {
@@ -89,7 +86,22 @@ const resources = {
             "https://code.visualstudio.com/assets/favicon.ico"
         ],
         videos: [
-            "https://www.youtube.com/embed/ifTF3ags0XI"
+        ]
+    },
+    Autres: {
+        icon: "📚",
+        links: [
+            { title: "Stack Overflow", url: "https://stackoverflow.com/", description: "Forum de questions/réponses pour les développeurs" },
+            {
+                "title": "Josh W. Comeau – Tutorials",
+                "url": "https://www.joshwcomeau.com/",
+                "description": "Articles pédagogiques et approfondis sur le JavaScript moderne, le CSS avancé, l'accessibilité et l'expérience utilisateur"
+            }
+        ],
+        images: [
+            "https://upload.wikimedia.org/wikipedia/commons/8/83/Stack_Overflow_icon.svg"
+        ],
+        videos: [
         ]
     }
 };

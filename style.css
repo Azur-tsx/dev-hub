@@ -146,6 +146,10 @@ h2 {
     gap: 1rem;
 }
 
+#links a {
+    max-width: 300px;
+}
+
 #images {
     min-height: 200px;
 }
