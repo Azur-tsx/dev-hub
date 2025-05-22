@@ -55,7 +55,7 @@ const resources = {
         icon: "🐘",
         links: [
             { title: "PHP Manual", url: "https://www.php.net/manual/fr/", description: "Documentation officielle de PHP" },
-            { title: "PHP The Right Way", url: "https://www.phptherightway.com/", description: "Bonnes pratiques et standards pour PHP" }
+            { title: "PHP The Right Way", url: "https://phptherightway.com/", description: "Bonnes pratiques et standards pour PHP" }
         ],
         images: [
             "https://www.php.net/images/logos/php-logo.svg"
@@ -76,6 +76,20 @@ const resources = {
         videos: [
             "https://www.youtube.com/embed/4W4Z2g0v4E"
         ]
+    },
+    VSCodeExtensions: {
+        icon: "🔌",
+        links: [
+            { title: "Prettier", url: "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode", description: "Code formatter" },
+            { title: "ESLint", url: "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint", description: "Linting pour JavaScript/TypeScript" },
+            { title: "Live Server", url: "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer", description: "Lance un serveur de développement local" },
+            { title: "GitLens", url: "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens", description: "Enrichit l'intégration Git" }
+        ],
+        images: [
+            "https://code.visualstudio.com/assets/favicon.ico"
+        ],
+        videos: [
+            "https://www.youtube.com/embed/ifTF3ags0XI"
+        ]
     }
-
-}
+};
