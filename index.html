@@ -11,7 +11,8 @@
 <body>
     <div class="container">
         <aside class="sidebar">
-            <h2>📚 Stacks</h2>
+            <img src="./assets/logo.png" alt="Logo Dev Resources Hub" class="logo">
+            <hr>
             <ul id="categoryList">
                 <!-- Catégories injectées ici -->
             </ul>
@@ -20,6 +21,34 @@
         <main class="content">
             <h1 id="currentCategory">Dev Resources Hub - <span id="currentCategoryGuide">Choisissez une catégorie</span>
             </h1>
+
+            <!-- Ajout de la section de bienvenue -->
+            <section id="welcome" class="section welcome">
+                <h2>👋 Bienvenue sur Dev Resources Hub</h2>
+                <div class="welcome-content">
+                    <p>
+                        Dev Resources Hub est une collection organisée de ressources pour le développement web.
+                        Vous y trouverez des liens utiles, des outils, de la documentation et des tutoriels pour
+                        différentes technologies.
+                    </p>
+
+                    <h3>📌 Comment utiliser ce site :</h3>
+                    <ul>
+                        <li>Sélectionnez une technologie dans le menu latéral</li>
+                        <li>Parcourez les différentes catégories de ressources :</li>
+                        <ul>
+                            <li>🔗 <strong>Liens utiles</strong> : Documentation, outils et ressources</li>
+                            <li>🖼️ <strong>Images</strong> : Captures d'écran et illustrations</li>
+                            <li>📺 <strong>Tutoriels vidéos</strong> : Vidéos explicatives</li>
+                            <li>🎥 <strong>Chaînes YouTube</strong> : Créateurs de contenu recommandés</li>
+                            <li>📝 <strong>Notes</strong> : Informations complémentaires</li>
+                        </ul>
+                    </ul>
+
+                    <p class="tip">💡 <em>Les liens s'ouvrent dans un nouvel onglet et les sections s'affichent
+                            uniquement si elles contiennent du contenu.</em></p>
+                </div>
+            </section>
 
             <section class="section">
                 <h2>🔗 Liens utiles</h2>
@@ -34,6 +63,11 @@
             <section class="section">
                 <h2>📺 Tutoriels vidéos</h2>
                 <div id="videos" class="videos"></div>
+            </section>
+
+            <section class="section">
+                <h2>🎥 Chaînes YouTube</h2>
+                <div id="youtube" class="youtube"></div>
             </section>
 
             <section class="section">
