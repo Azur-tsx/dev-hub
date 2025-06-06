@@ -44,12 +44,6 @@ const resources = {
                         url: "http://html5doctor.com/",
                         description: "Guide approfondi sur l'utilisation sémantique des balises HTML5",
                         icon: "http://html5doctor.com/favicon.ico"
-                    },
-                    {
-                        title: "HTML Semantique",
-                        url: "https://htmlsemantique.com/",
-                        description: "Ressource francophone sur les bonnes pratiques de balisage sémantique",
-                        icon: ""
                     }
                 ]
             },
@@ -163,7 +157,7 @@ const resources = {
                         title: "Blob Maker",
                         url: "https://www.blobmaker.app/",
                         description: "Générateur de formes organiques SVG",
-                        icon: "https://www.blobmaker.app/favicon.ico"
+                        icon: ""
                     }
                 ]
             },
@@ -242,7 +236,7 @@ const resources = {
                     },
                     {
                         title: "Magic Animations",
-                        url: "https://www.minimamente.com/example/magic_animations/",
+                        url: "https://www.minimamente.com/project/magic/",
                         description: "Collection d'animations CSS magiques",
                         icon: ""
                     },
@@ -574,17 +568,11 @@ const resources = {
                 name: "🎯 Ressources",
                 links: [
                     {
-                        title: "Figma Templates",
-                        url: "https://figmaelements.com/templates/",
+                        title: "Figma Elements",
+                        url: "https://figmaelements.com/",
                         description: "Collection de templates gratuits pour Figma",
                         icon: "https://figmaelements.com/favicon.ico"
                     },
-                    {
-                        title: "Figma Icons",
-                        url: "https://www.figma.com/resources/icons/",
-                        description: "Bibliothèques d'icônes pour Figma",
-                        icon: ""
-                    }
                 ]
             }
         },
